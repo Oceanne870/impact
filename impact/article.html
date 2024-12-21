@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IMPACT : Une plateforme de science participative pour la recherche et l'écologie.">
+    <title>IMPACT - Science participative</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #0073e6;
+        }
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        // Détecte la langue de l'utilisateur et adapte le contenu
+        document.addEventListener("DOMContentLoaded", function () {
+            const userLang = navigator.language || navigator.userLanguage;
+            const frenchContent = document.getElementById("content-fr");
+            const englishContent = document.getElementById("content-en");
+
+            if (userLang.startsWith("en")) {
+                frenchContent.style.display = "none";
+                englishContent.style.display = "block";
+            } else {
+                englishContent.style.display = "none";
+                frenchContent.style.display = "block";
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <!-- Contenu en français -->
+        <div id="content-fr">
+            <h1>Une idée, un projet, un horizon</h1>
+            <h2>IMPACT : La science participative au service de la recherche et de l’écologie</h2>
+            <p>Avez-vous déjà envisagé que la recherche scientifique pourrait encore atteindre de nouveaux sommets ? Et si nous mobilisions la participation active des citoyens à grande échelle pour y parvenir ?</p>
+            <p>C'est exactement ce que nous vous proposons avec <strong>IMPACT</strong>, une plateforme numérique mondiale conçue pour ouvrir des portes à la recherche scientifique grâce aux sciences participatives.</p>
+            <h2>Un objectif clair : un impact global</h2>
+            <ul>
+                <li>Soutenir la recherche scientifique en mobilisant les contributions citoyennes.</li>
+                <li>Orienter les décisions des grands leaders actuels grâce à des données collectées de manière collaborative et à l’opinion publique.</li>
+                <li>Créer une prise de conscience mondiale sur l’urgence climatique et écologique actuelle.</li>
+            </ul>
+            <h2>Trois piliers fondamentaux</h2>
+            <p><strong>Le recensement :</strong> Les utilisateurs peuvent photographier des animaux, plantes, minéraux, ainsi que des phénomènes liés à la pollution ou à des catastrophes naturelles.</p>
+            <p><strong>Les sondages :</strong> Des questions sont proposées pour mieux comprendre les opinions et sensibilités du public sur des enjeux cruciaux.</p>
+            <p><strong>Les conseils :</strong> IMPACT encourage des comportements responsables grâce à des idées pratiques et des suggestions personnalisées.</p>
+            <h2>Une carte dynamique pour une vision globale</h2>
+            <p>La plateforme inclut une carte interactive permettant de suivre, en temps réel, les observations et projets des participants à travers le monde. Toutes les données collectées seront accessibles librement, favorisant la transparence et l'engagement global.</p>
+            <h2>Un projet citoyen porté par des visionnaires</h2>
+            <p>IMPACT est une initiative menée par <strong>Maxence ROMANO</strong> et <strong>Nicolas VERCASSON</strong>. Nous croyons en la force collective et au pouvoir des technologies actuelles pour faire évoluer la recherche et préserver notre planète.</p>
+            <p>📧 Contactez-nous : <a href="mailto:impact-project@outlook.com">impact-project@outlook.com</a></p>
+        </div>
+
+        <!-- Contenu en anglais -->
+        <div id="content-en" style="display: none;">
+            <h1>An Idea, a Project, a Horizon</h1>
+            <h2>IMPACT: Citizen Science for Research and Ecology</h2>
+            <p>Have you ever imagined that scientific research could reach even greater heights? What if we could mobilize active citizen participation on a large scale to achieve this?</p>
+            <p>That's exactly what we propose with <strong>IMPACT</strong>, a global digital platform designed to open new doors for scientific research through citizen science.</p>
+            <h2>A Clear Goal: Global Impact</h2>
+            <ul>
+                <li>Support scientific research by mobilizing citizen contributions.</li>
+                <li>Guide decisions by today’s leaders through collaboratively collected data and public opinion.</li>
+                <li>Create global awareness about the current climate and ecological urgency.</li>
+            </ul>
+            <h2>Three Core Pillars</h2>
+            <p><strong>Observation:</strong> Users can photograph animals, plants, minerals, and phenomena related to pollution or natural disasters.</p>
+            <p><strong>Surveys:</strong> Questions are provided to better understand public opinions and sensitivities on critical issues.</p>
+            <p><strong>Guidance:</strong> IMPACT encourages responsible behaviors through practical ideas and personalized suggestions.</p>
+            <h2>A Dynamic Map for a Global Vision</h2>
+            <p>The platform includes an interactive map to track participants’ observations and projects worldwide in real time. All collected data will be freely accessible, fostering transparency and global engagement.</p>
+            <h2>A Citizen-Led Project by Visionaries</h2>
+            <p>IMPACT is an initiative led by <strong>Maxence ROMANO</strong> and <strong>Nicolas VERCASSON</strong>. We believe in the collective power and the potential of modern technologies to advance research and protect our planet.</p>
+            <p>📧 Contact us: <a href="mailto:impact-project@outlook.com">impact-project@outlook.com</a></p>
+        </div>
+    <div style="text-align:center;">
+        <img src="./papillon-1000x.png" style="width:400px;" /> <br />
+        <p style="font-size:extra-large;"><strong>Interface Mondiale pour la Protection et l'Action Collaborative Touristique</strong></p>
+
+    </div>
+
+    </div>
+</body>
+</html>
